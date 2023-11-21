@@ -28,8 +28,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import agneyas from "./company/agneyas.png";
+import Sathyabama from "./company/Sathyabama.png";
 
 import carrent from "./carrent.png";
+import videoGame from "./videoGame.png";
+import eCommerce from "./eCommerce.png";
+import Portfolio from "./Portfolio.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -64,5 +68,9 @@ export {
   jobit,
   tripguide,
   python,
-  angular
+  angular,
+  videoGame,
+  Portfolio,
+  eCommerce,
+  Sathyabama
 };

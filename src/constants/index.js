@@ -23,9 +23,13 @@ import {
   tesla,
   shopify,
   carrent,
+  videoGame,
   jobit,
   tripguide,
   threejs,
+  Portfolio,
+  Sathyabama,
+  eCommerce
 } from "../assets";
 
 export const navLinks = [
@@ -57,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UX/UI Developer",
     icon: creator,
   },
 ];
@@ -130,19 +134,18 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
-  {
-    title: "Software Engineer Intern",
-    company_name: "Agneyas labs Private Limited",
-    icon: agneyas,
+  },{
+    title: "Bachelors Degree",
+    company_name: "Sathyabama Institute of Science and Technology",
+    icon: Sathyabama,
     iconBg: "#383E56",
-    date: "December 2022 - august 2023",
+    date: "July 2019 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Bachelor's in Mechanical Engineering achiever with a stellar 9.43 CGPA.",
+      "Demonstrating unwavering dedication and excellence in academic pursuits.",
+      "Proven commitment to learning and a strong work ethic characterize my educational journey.",
+      "My bachelor's journey embodies dedication and excellence, showcasing a valuable blend of analytical thinking and adaptability. ",
+    ]
   }
 ];
 
@@ -175,58 +178,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Video Game Platform",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Introducing GameHub Explorer: Your Gateway to Gaming Brilliance! Effortlessly discover, explore in-depth game details, seamlessly download your favorites, and elevate your gaming experience with unparalleled convenience—all in one sleek app.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
+        name: "angular",
         color: "blue-text-gradient",
       },
       {
         name: "restapi",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: videoGame,
+    source_code_link: "https://github.com/SriSomanaath/videoGame.git",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Crafted a responsive E-commerce Angular application with streamlined user experience, and efficient functionality. Integrated sleek design, seamless navigation, and interactive components for an engaging user experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "angular",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -234,8 +212,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Portfolio,
+    source_code_link: "https://srisomanaath.github.io/SriSomanaath-portfolio/",
+  },
+  {
+    name: "eCommerce Web App",
+    description:
+      "Implemented sleek design, smooth navigation, and interactive components, highlighting skills in creating engaging user interfaces. Elevate your digital presence with my Angular expertise in crafting visually appealing and functionally robust portfolios.",
+    tags: [
+      {
+        name: "angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JSON server",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: eCommerce,
+    source_code_link: "https://github.com/SriSomanaath/https---github.com-SriSomanaath-EazyTrove.git",
   },
 ];
 

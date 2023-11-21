@@ -95,6 +95,9 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <h1>
+      <a href={`https://drive.google.com/file/d/1pcp3L6jC6TYEju2RrcLbRgsz0spsbQPw/view`}>Resume</a>
+      </h1>
     </nav>
   );
 };
