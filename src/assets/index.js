@@ -32,6 +32,7 @@ import Sathyabama from "./company/Sathyabama.png";
 
 import carrent from "./carrent.png";
 import videoGame from "./videoGame.png";
+import logo2 from "./logo2.png";
 import eCommerce from "./eCommerce.png";
 import Portfolio from "./Portfolio.png";
 import jobit from "./jobit.png";
@@ -72,5 +73,6 @@ export {
   videoGame,
   Portfolio,
   eCommerce,
-  Sathyabama
+  Sathyabama,
+  logo2
 };
