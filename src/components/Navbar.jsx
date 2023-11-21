@@ -96,7 +96,7 @@ const Navbar = () => {
         </div>
       </div>
       <h1>
-      <a href={`https://drive.google.com/file/d/1pcp3L6jC6TYEju2RrcLbRgsz0spsbQPw/view`}>Resume</a>
+      <a href={`https://drive.google.com/file/d/1CDEOxudptxy4xn_RwD6zf_SWalTVSGNQ/view?usp=sharing`}>Resume</a>
       </h1>
     </nav>
   );
