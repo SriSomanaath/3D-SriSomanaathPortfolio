@@ -21,7 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import angular from "./tech/angular.png";
+import nextjs from "./tech/nextjs.png";
 import python from "./tech/python.png";
+import tanstack from "./tech/tanstack.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,9 +31,11 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import agneyas from "./company/agneyas.png";
 import Sathyabama from "./company/Sathyabama.png";
+import techarion from "./company/techarion.png";
 
 import carrent from "./carrent.png";
-import videoGame from "./videoGame.png";
+import carHub from "./carHub.png";
+import crypto from "./crypto.png";
 import logo2 from "./logo2.png";
 import eCommerce from "./eCommerce.png";
 import Portfolio from "./Portfolio.png";
@@ -70,9 +74,13 @@ export {
   tripguide,
   python,
   angular,
-  videoGame,
+  carHub,
+  crypto,
   Portfolio,
   eCommerce,
   Sathyabama,
-  logo2
+  techarion,
+  logo2,
+  nextjs,
+  tanstack
 };

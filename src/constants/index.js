@@ -1,5 +1,5 @@
 import {
-  mobile,
+  techarion,
   backend,
   creator,
   web,
@@ -14,22 +14,16 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
   agneyas,
   angular,
   python,
-  tesla,
-  shopify,
-  carrent,
-  videoGame,
-  jobit,
-  tripguide,
+  carHub,
   threejs,
   Portfolio,
   Sathyabama,
-  eCommerce
+  crypto,
+  nextjs,
+  tanstack,
 } from "../assets";
 
 export const navLinks = [
@@ -61,20 +55,12 @@ const services = [
     icon: backend,
   },
   {
-    title: "UX/UI Developer",
+    title: "UI Developer",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -118,10 +104,35 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "React Query",
+    icon: tanstack,
   }
 ];
 
 const experiences = [
+  {
+    title: "Reactjs Developer Intern",
+    company_name: "Tech Arion Private Limited",
+    icon: techarion,
+    iconBg: "#383E56",
+    date: "December 2022 - august 2023",
+    points: [
+      "Developed Image editing studio resulting in a 28% increase in user satisfaction",
+      "Leveraged the best libraries for seamless UI design that significantly improved user engagement and 6% boost in audience engagement.",
+      "Provided clear documentation on GitHub for easy adoption and collaboration among team members.",
+      "Integrated Unsplash API and AI image generator for access to diverse high-quality images.",
+    ],
+  },
   {
     title: "Software Engineer Intern",
     company_name: "Agneyas labs Private Limited",
@@ -178,20 +189,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Video Game Platform",
+    name: "Car-Hub",
     description:
-      "Introducing GameHub Explorer: Your Gateway to Gaming Brilliance! Effortlessly discover, explore in-depth game details, seamlessly download your favorites, and elevate your gaming experience with unparalleled convenience—all in one sleek app.",
+      "Car Rental App revolutionizes car rentals with seamless browsing, personalized recommendations, and instant booking. Experience unmatched performance and ease of use with advanced features like server-side rendering and app router.",
     tags: [
       {
-        name: "angular",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Rapid Api",
         color: "green-text-gradient",
       }
     ],
-    image: videoGame,
+    image: carHub,
     source_code_link: "https://github.com/SriSomanaath/videoGame.git",
   },
   {
@@ -204,7 +215,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
@@ -216,24 +227,24 @@ const projects = [
     source_code_link: "https://srisomanaath.github.io/SriSomanaath-portfolio/",
   },
   {
-    name: "eCommerce Web App",
+    name: "Crytpo & Stock App",
     description:
       "Implemented sleek design, smooth navigation, and interactive components, highlighting skills in creating engaging user interfaces. Elevate your digital presence with my Angular expertise in crafting visually appealing and functionally robust portfolios.",
     tags: [
       {
-        name: "angular",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Redux-Toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "JSON server",
+        name: "React-Query",
         color: "pink-text-gradient",
       },
     ],
-    image: eCommerce,
+    image: crypto,
     source_code_link: "https://github.com/SriSomanaath/https---github.com-SriSomanaath-EazyTrove.git",
   },
 ];
