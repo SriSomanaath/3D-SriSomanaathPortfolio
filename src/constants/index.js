@@ -125,7 +125,7 @@ const experiences = [
     company_name: "Tech Arion Private Limited",
     icon: techarion,
     iconBg: "#383E56",
-    date: "December 2022 - august 2023",
+    date: "December 2023 - February 2024",
     points: [
       "Developed Image editing studio resulting in a 28% increase in user satisfaction",
       "Leveraged the best libraries for seamless UI design that significantly improved user engagement and 6% boost in audience engagement.",
