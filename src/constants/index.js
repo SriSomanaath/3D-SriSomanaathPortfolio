@@ -203,7 +203,7 @@ const projects = [
       }
     ],
     image: carHub,
-    source_code_link: "https://github.com/SriSomanaath/videoGame.git",
+    source_code_link: "https://car-showcase-r.vercel.app/",
   },
   {
     name: "Portfolio",
@@ -245,7 +245,7 @@ const projects = [
       },
     ],
     image: crypto,
-    source_code_link: "https://github.com/SriSomanaath/https---github.com-SriSomanaath-EazyTrove.git",
+    source_code_link: "https://cyrpto-verse.vercel.app/",
   },
 ];
 
